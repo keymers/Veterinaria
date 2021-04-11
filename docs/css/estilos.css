@@ -6,6 +6,10 @@
     height: 100px;
 }
 
+.title{
+    width: 150%;
+    height: 10%;
+}
 .logo img{
     width: 70px;
     height: 70px;
@@ -16,7 +20,7 @@
 .logo{
     width: 80%;
     height: 10%;
-    
+    padding: 10px;
 }
 
 .navegacion{
@@ -36,4 +40,44 @@
 .carrusel_index{
     width: auto;
     height: 50%;
+}
+.cirugia{
+    background-color: palegoldenrod;
+    border : 5px solid rgb(236, 224, 83);
+    height: 380px;
+    padding: 10px;
+}
+.cirugia img{
+    float: left;
+}
+.cirugia p{
+    text-align: center;
+    justify-content: center;
+}
+
+.dentista{
+    background-color: cadetblue;
+    border : 5px solid rgb(46, 164, 168);
+    height: 410px;
+    padding: 10px;
+}
+.dentista img{
+    float: right;
+}
+.dentista p{
+    text-align: center;
+}
+.peluqueria{
+    background-color: pink;
+    border : 5px solid rgb(189, 108, 121);
+    height: 380px;
+    padding: 10px;
+}
+
+.peluqueria img{
+    float: left;
+}
+
+.peluqueria p{
+    text-align: center;
 }
