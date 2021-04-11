@@ -9,6 +9,7 @@
 .title{
     width: 150%;
     height: 10%;
+
 }
 .logo img{
     width: 70px;
@@ -80,4 +81,8 @@
 
 .peluqueria p{
     text-align: center;
+}
+
+.consulta_vet{
+    text-align: left;
 }
