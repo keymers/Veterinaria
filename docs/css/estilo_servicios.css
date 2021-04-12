@@ -99,3 +99,79 @@
 .redes a{
     justify-content: center;
 }
+
+@media screen and (max-width:992px) {
+    .header {
+        flex-direction: row;
+        
+        height: 120px;
+
+    }
+    .title{
+        text-align: left;
+    }
+    .logo img{
+        display: none;
+    }
+
+    .cirugia{
+        height: 400px;
+    }
+
+    .dentista{
+        height: 300px;
+    }
+    
+    .dentista img{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .title{
+        display: flex;
+        font-size: 25px;
+    }
+    .header nav{
+        width: 30%;
+        padding: 1px;
+    }
+    .header a{
+        width: 10%;
+        vertical-align: bottom;
+        font-size: 15px;
+    }
+    .fono{
+        width: 40%;
+    }
+    .redes{
+        width: 40%;
+    }
+    .cirugia{
+        height: 370px;
+    }
+    .cirugia img{
+        height: 200px;
+        width: 200px;
+    }
+
+    .dentista{
+        height: 350px;
+    }
+    
+    .dentista img{
+        height: 200px;
+        width: 200px;
+    }
+    .peluqueria{
+        height: 350px;
+    }
+    .peluqueria img{
+        width: 200px;
+        height: 200px;
+    }
+    .peluqueria p{
+        text-align: right;
+    }
+}

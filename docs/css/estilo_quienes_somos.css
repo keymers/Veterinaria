@@ -58,10 +58,10 @@
 }
 
 .historia {
-    background-color: bisque;
     width: 50%;
     height: 50%;
     padding: 10px;
+    display: contents;
 }
 
 .historia img{
@@ -74,4 +74,45 @@
 .historia p{
     text-align: left;
     font-size: large;
+}
+
+@media screen and (max-width:992px) {
+    .header {
+        flex-direction: row;
+        
+        height: 120px;
+
+    }
+    .title{
+        text-align: left;
+    }
+    .logo img{
+        display: none;
+    }
+
+
+    
+}
+
+@media screen and (max-width:767px) {
+    .title{
+        display: flex;
+        font-size: 25px;
+    }
+    .header nav{
+        width: 30%;
+        padding: 1px;
+    }
+    .header a{
+        width: 10%;
+        vertical-align: bottom;
+        font-size: 15px;
+    }
+    .fono{
+        width: 40%;
+    }
+    .redes{
+        width: 40%;
+    }
+    
 }

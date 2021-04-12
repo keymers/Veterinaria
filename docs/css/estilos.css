@@ -1,3 +1,4 @@
+
 .header{
     background-color: aquamarine;
     display: flex;
@@ -9,7 +10,7 @@
 .title{
     width: 450%;
     height: 10%;
-    padding: 20px;
+    padding: 10px;
 
 }
 .logo img{
@@ -94,6 +95,7 @@
     .header a{
         width: 10%;
         vertical-align: bottom;
+        font-size: 15px;
     }
     .fono{
         width: 40%;
