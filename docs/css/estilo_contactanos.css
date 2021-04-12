@@ -28,50 +28,8 @@
 .navegacion{
     float: right;
 }
-.cirugia{
-    background-color: palegoldenrod;
-    border : 5px solid rgb(236, 224, 83);
-    height: 380px;
-    padding: 10px;
-}
-.cirugia img{
-    float: left;
-}
-.cirugia p{
-    text-align: center;
-    justify-content: center;
-}
 
-.dentista{
-    background-color: cadetblue;
-    border : 5px solid rgb(46, 164, 168);
-    height: 410px;
-    padding: 10px;
-}
-.dentista img{
-    float: right;
-}
-.dentista p{
-    text-align: center;
-}
-.peluqueria{
-    background-color: pink;
-    border : 5px solid rgb(189, 108, 121);
-    height: 380px;
-    padding: 10px;
-}
 
-.peluqueria img{
-    float: left;
-}
-
-.peluqueria p{
-    text-align: center;
-}
-
-.consulta_vet{
-    text-align: left;
-}
 
 .footer {
     background-color: lightblue;
