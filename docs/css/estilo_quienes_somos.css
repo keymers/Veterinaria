@@ -56,3 +56,22 @@
 .redes a{
     justify-content: center;
 }
+
+.historia {
+    background-color: bisque;
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+}
+
+.historia img{
+    float: right;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.historia p{
+    text-align: left;
+    font-size: large;
+}
