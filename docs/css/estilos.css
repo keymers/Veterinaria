@@ -7,8 +7,9 @@
 }
 
 .title{
-    width: 150%;
+    width: 450%;
     height: 10%;
+    padding: 20px;
 
 }
 .logo img{
@@ -35,54 +36,31 @@
 
 .footer {
     background-color: lightblue;
-    
+    padding: 10px;
+    width: 100%;
+    height: 100px;
 }
 
 .carrusel_index{
     width: auto;
     height: 50%;
 }
-.cirugia{
-    background-color: palegoldenrod;
-    border : 5px solid rgb(236, 224, 83);
-    height: 380px;
+
+.fono{
+    text-align: right;
     padding: 10px;
+    float: right;
 }
-.cirugia img{
-    float: left;
-}
-.cirugia p{
-    text-align: center;
+
+.fono img{
     justify-content: center;
 }
 
-.dentista{
-    background-color: cadetblue;
-    border : 5px solid rgb(46, 164, 168);
-    height: 410px;
-    padding: 10px;
-}
-.dentista img{
-    float: right;
-}
-.dentista p{
-    text-align: center;
-}
-.peluqueria{
-    background-color: pink;
-    border : 5px solid rgb(189, 108, 121);
-    height: 380px;
-    padding: 10px;
-}
-
-.peluqueria img{
+.redes{
+    width: 70%;
     float: left;
 }
 
-.peluqueria p{
-    text-align: center;
-}
-
-.consulta_vet{
-    text-align: left;
+.redes a{
+    justify-content: center;
 }
