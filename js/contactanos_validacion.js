@@ -21,7 +21,7 @@ $(document).ready(function() {
             },
             "txtCorreo": {
                 required: 'Ingrese su correo',
-                email: 'No cumple formato ***@***'
+                email: 'No cumple formato correo@ejemplo.com'
             },
             "txtEscriba": {
                 required: 'Ingrese su consulta',
