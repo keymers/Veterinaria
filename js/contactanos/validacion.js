@@ -7,7 +7,7 @@ $(document).ready(function() {
             },
             "txtCorreo": {
                 required: true,
-                email: 5
+                email: true
             },
             "txtEscriba": {
                 required: true,

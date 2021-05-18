@@ -32,11 +32,11 @@
                 <form method="POST" id="contacto">
                     <div class="form-group">
                       <label for="id_txtNombre">Nombre</label>
-                      <input type="text" class="form-control required" name="txtNombre" id="id_txtNombre" placeholder="Nombre Completo">
+                      <input type="text" class="form-control required" name="txtNombre" id="id_txtNombre" value="" placeholder="Nombre Completo">
                     </div>
                     <div class="form-group">
                       <label for="id_txtCorreo">Correo</label>
-                      <input type="email" class="form-control" name="txtCorreo" id="id_txtCorreo" required="" placeholder="correo@ejemplo.com">
+                      <input type="email" class="form-control" name="txtCorreo" id="id_txtCorreo" required="" value="" placeholder="correo@ejemplo.com">
                     </div>
                     <div class="consulta">
                         <label for="id_txtConsulta">Consulta</label>
@@ -44,9 +44,13 @@
                         <textarea rows="4" cols="40" name="txtEscriba" id="id_txtEscriba" required="" placeholder="Escriba su consulta..."></textarea>
                       </div>
                       <p></p>
-                        <button type="button" class="btn btn-primary btn-lg" name="btnEnviar" id="submit-form">Enviar</button>
+                      <form action="">
+                        <button type="reset" onclick="messageConsultaEnviada()" class="btn btn-primary btn-lg" name="btnEnviar" id="submit-form">Enviar</button>
+                      </form>
+                        
                       
                   </form>
+                  <br></br>
             </div>
 
             <div class="footer">
@@ -80,7 +84,8 @@
     integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
     crossorigin="anonymous"></script>
 
-    <script src="/js/contactanos_validacion.js"></script>
+    <script src="/js/contactanos/validacion.js"></script>
+    <script src="/js/contactanos/consulta_enviada.js"></script>
     
 
 </body>
