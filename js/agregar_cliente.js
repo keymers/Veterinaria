@@ -14,6 +14,9 @@ $(function () {
 
         $('#tablaprueba>tbody').append(fila);
 
+        var documento = $("#tablaprueba");
+        documento.css("background-color", "#7584");
+
     });
     //   cierre del click de submint
 });
