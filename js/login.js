@@ -14,11 +14,11 @@ $(document).ready(function () {
         usuario: {
             minlength: "Min 3 caracteres"
         },
-        contraseña: {
+        contrasena: {
             minlength: "Min 3 caracteres"
         },
       }
-   
+
     });
   });
   
